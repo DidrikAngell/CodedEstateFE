@@ -1,0 +1,405 @@
+/* Header Style */
+
+.Header .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.Header button {
+  font-size: 16px;
+  font-weight: 500;
+  margin-left: 1rem;
+}
+
+/* Searchbar Style */
+.SearchBar .rounded-pill .house-type select.form-select {
+  width: 60% !important;
+}
+.SearchBar .rounded-pill .house-type label {
+  margin: 0;
+}
+
+.SearchBar .rounded-pill select, 
+.SearchBar .rounded-pill label {
+  font-weight: 700;
+}
+
+.SearchBar .rounded-pill select {
+  text-align: left;
+  padding-left: 1rem;
+}
+
+/* NormalCard Style */
+
+.NormalCard {
+  border: none !important;
+}
+
+.NormalCard .carousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+.NormalCard .card-properties {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.NormalCard .heart-icon {
+  position: absolute;
+  z-index: 10;
+  right: 8%;
+  top: 7%;
+  font-size: 20px;
+  color: white;
+}
+
+/* BuyPage Style */
+
+.BuyPage .Search-result {
+  max-height: 80vh;
+  overflow: scroll;
+}
+
+.BuyPage .show-map-btn {
+  bottom: 5%;
+  left: 45%;
+  position: absolute;
+  z-index: 20;
+}
+
+/* DetailCarousel Style */
+
+.DetailPage .DetailCarousel.carousel .carousel-indicators button {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+}
+
+/* SideBar Style */
+
+.Sidebar {
+  width: 300px;
+  height: calc(100vh - 5rem);
+  position: fixed !important;
+  margin-top: 81px !important;
+}
+
+.Header {
+  position: fixed !important;
+  background: white !important;
+  width: 100% !important;
+  z-index: 100;
+}
+
+.dashboard-layout {
+  margin-left: 300px !important;
+  margin-top: 81px !important;
+}
+
+.Header {
+  height: 5rem;
+}
+
+/* MintCard Style */
+
+.MintCard .card-body .border-1.rounded-2 {
+  background-color: #75757533;
+}
+
+/* MintedPropertiesCardCarousel Style */
+.MintedPropertiesCardCarousel .badge {
+  position: absolute;
+    right: 5%;
+    top: 5%;
+    background: white !important;
+    color: gray;
+    border-radius: 50px;
+    padding: 0.25rem 1rem;
+    border: 1px solid gray;
+}
+
+.MintedPropertiesCardCarousel .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+}
+
+/* PropertiesPage Style */
+
+.PropertiesPage .nav-tabs .nav-item {
+  font-weight: bold;
+}
+
+/* FavoritesPage Style */
+
+.FavoritesPage .FavoritesPage-body {
+  height: 60vh;
+  overflow-y: scroll;
+}
+
+/* PropertiesDetail Style */
+
+.PropertiesDetail .history-price-option,
+.PropertiesDetail .history-price-option .btn-group button {
+  font-size: 12px;
+}
+
+.PropertiesDetail .history-datatable .history-datatable-item,
+.PropertiesDetail .history-datatable .history-datatable-item button {
+  font-size: 12px;
+}
+
+.PropertiesDetail .history-datatable .history-datatable-item button {
+  padding: 0.25rem 1rem !important;
+}
+
+.chat-body {
+  min-height: 66.5vh !important;
+}
+
+.DetailPage .rmdp-shadow {
+  margin: 0 !important;
+}
+
+.nav-link:hover, 
+.nav-link:active, 
+.nav-link:focus {
+  color: #6317F7 !important;
+}
+
+.nav-link {
+  color: #323260 !important;
+}
+
+.PropertiesTabContent {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.PropertiesTabContent .SearchPropertiesBar {
+  z-index: 100;
+  right: 0;
+  top: -2.75rem;
+}
+
+.PropertiesTabContent .SearchPropertiesBar .input-group-text {
+  background-color: white;
+  border-right: none;  
+  color: #32326080 !important;
+}
+
+.PropertiesTabContent .SearchPropertiesBar input {
+  background-color: white;
+  border-left: none;  
+  color: #32326080 !important;
+}
+
+.MessagePage .user-list,
+.MessagePage .content-list,
+.MessagePage .content-detail {
+  height: calc(100vh - 90px);
+}
+
+.MessagePage .Message-content {
+  height: 80vh;
+  overflow-y: scroll;
+}
+
+.MessagePage .Message-content::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+
+.MessagePage .Message-contenty:-webkit-scrollbar-track {
+  background: white;        /* color of the tracking area */
+}
+
+.MessagePage .Message-content::-webkit-scrollbar-thumb {
+  background-color: #323260;    /* color of the scroll thumb */
+  border-radius: 20px;  
+}
+
+.nav-tabs .nav-link {
+  font-weight: bold;
+}
+
+.toggle-btn span {
+  cursor: pointer;
+}
+
+.TripsPage .nav.nav-tabs {
+  border : 1px solid;
+  width: 15%;
+  display: flex;
+  justify-content: space-around;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.TripsPage .nav.nav-tabs .nav-item button {
+  padding: 0.25rem 1rem;
+  border-width: 1px;
+}
+
+.TripsPage .nav.nav-tabs .nav-item button:hover {
+  padding: 0.25rem 1rem;
+  border-width: 1px;
+  border-color: white !important;
+  color: #323260 !important;
+}
+
+.TripsPage .nav.nav-tabs .nav-item button[aria-selected="true"] {
+  background: #323260 !important;
+  border-radius: 5px !important;
+  border-width: 1px;
+  color: white !important;
+  padding: 0.25rem 1rem;
+}
+
+
+.TripsPage .card {
+  cursor: pointer;
+}
+
+.step.bg-white-custom::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+
+.step.bg-white-custom:-webkit-scrollbar-track {
+  background: none;        /* color of the tracking area */
+}
+
+.step.bg-white-custom::-webkit-scrollbar-thumb {
+  background-color: transparent;    /* color of the scroll thumb */
+  border-radius: 20px;  
+}
+
+.RSPBprogression {
+  background: #323260 !important;
+  border-radius: 0px !important;
+}
+
+.Search-result::-webkit-scrollbar {
+  width: 5px;               /* width of the entire scrollbar */
+}
+
+.Search-result:-webkit-scrollbar-track {
+  background: none;        /* color of the tracking area */
+}
+
+.Search-result::-webkit-scrollbar-thumb {
+  background-color: transparent;    /* color of the scroll thumb */
+  border-radius: 20px;  
+}
+
+.RSPBprogressBar {
+ border-radius: 0px !important;
+}
+
+label[for="file"] {
+  border-color: #323260 !important;
+  padding: 9.5rem 1rem;
+}
+
+label[for="file"] svg,
+label[for="file"] div {
+  display: none;
+}
+
+.rentCard .rmdp-container {
+ display: flex !important;
+
+}
+
+.rentCard .rmdp-container input {
+  width: 100% !important;
+  border: none;
+  text-align-last: justify;
+  color: #32326080 !important;
+ }
+
+ .PropertiesDetail .rmdp-container {
+  width: 100% !important;
+ }
+
+ .PropertiesDetail .rmdp-container input {
+  width: 100% !important;
+  border: none;
+  text-align-last: justify;
+  color: #32326080 !important;
+ }
+
+ .PropertiesPage .nav-item button[aria-selected="true"],
+ .Header .navbar .nav-link.active,
+ .Sidebar  .nav-link.active{
+  color: #6317F7 !important;
+ }
+
+body::-webkit-scrollbar {
+  width: 0px;               /* width of the entire scrollbar */
+}
+
+body:-webkit-scrollbar-track {
+  background: none;        /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: transparent;    /* color of the scroll thumb */
+  border-radius: 20px;  
+}
+
+.VerifyModePlaceButton:hover,
+.VerifyModePlaceButton:active
+.VerifyModePlaceButton:focus,
+.VerifyModePlaceButton:focus-visible {
+  border-color: #323260 !important;
+}
+
+.Step3 .btn-check:checked+.btn,
+.Step2 .btn-check:checked+.btn,
+.Step9 .btn-check:checked+.btn,
+.Step12 .btn-check:checked+.btn,
+.Step15 .btn-check:checked+.btn {
+  border-color: #323260 !important;
+  background: white !important;
+  color: #323260 !important;
+  box-shadow: none;
+}
+
+.Step2 .btn,
+.Step3 .btn,
+.Step9 .btn,
+.Step12 .btn,
+.Step15 .btn
+ {
+  border-color: #0000002d !important;
+  background: white !important;
+  color: #323260 !important;
+}
+
+.activity-datatable tr {
+  cursor: pointer;
+}
+
+.location-search-t {
+  font-size: 0.5rem;
+}
+
+.location-search-b {
+  font-size: 0.75rem;
+}
+
+.BuySearchBar,
+.SearchBar,
+.BuySearchBar select {
+  font-size: 14px !important;
+}
+
+.BuySearchBar button,
+.SearchBar button {
+ width: 2rem !important;
+ height: 2rem !important;
+}
